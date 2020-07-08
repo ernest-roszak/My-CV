@@ -1,8 +1,28 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://raw.githubusercontent.com/ernest-roszak/myProfile/master/public/Ernest%20Roszak.png)
 
-# WTF Webpack Starter Kit 
+# General information
 
-Simple toolkit for your static websites development.
+This page present my Portfolio as Frontend Developer
+
+## Working knowledge
+✔ Semantic HTML5
+✔ Flexbox
+✔ Markdown
+✔ JS: Local storage
+✔ Figma
+✔ CSS grid
+✔ Forms
+✔ JS: DOM manipulations
+✔ SASS
+
+## Know something about:
+⚪ JavaScript ES6 + features
+⚪ CSS animations
+⚪ Working with API
+⚪ NPM Scripts
+⚪ Progresive web apps
+⚪ GIT
+⚪ Accessibility
 
 ## How to use it?
 
@@ -15,4 +35,5 @@ Click on `Use this template` button to generate a new repository based on this s
 `npm run build` - runs build process for production
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
+
 
