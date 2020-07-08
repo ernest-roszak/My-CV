@@ -2,11 +2,7 @@
 
 # General information
 
-<<<<<<< HEAD
-*This page present my Portfolio as Frontend Developer*
-=======
 *This page is part of my Portfolio as Frontend Developer*
->>>>>>> 4c556f33be89859b84811355300a2d654f1ec11d
 
 ## Working knowledge
 ✔ Semantic HTML5
