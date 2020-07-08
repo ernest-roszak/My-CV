@@ -1,8 +1,8 @@
-![cover](https://raw.githubusercontent.com/ernest-roszak/myProfile/master/public/Ernest%20Roszak.png)
+![cover](public/ErnestRoszak.png)
 
 # General information
 
-This page present my Portfolio as Frontend Developer
+*This page present my Portfolio as Frontend Developer*
 
 ## Working knowledge
 ✔ Semantic HTML5
