@@ -1,6 +1,8 @@
 ![cover](public/ErnestRoszak.png)
 
-# General information
+# ERNEST ROSZAK - JUNIOR FRONTEND DEVELOPER
+
+My online website CV version.
 
 *This page is part of my Portfolio as Frontend Developer*
 
@@ -41,13 +43,5 @@
 ## How to use it?
 
 Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
 
 

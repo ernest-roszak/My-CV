@@ -1,0 +1,35 @@
+.work {
+    margin: 20em 4em 0;
+    color: black;
+    padding: 16px;
+    @media (max-width: 740px) {
+        margin-top: 1em;
+      }
+    &__title {
+      font-size: 1.2em;
+      font-weight: bold;
+      font-weight: 500;
+      line-height: 24px;
+      &--main {
+        font-size: 2em;
+        font-weight: bold;
+        font-weight: 500;
+        line-height: 24px;
+        @media (max-width: 740px) {
+            text-align: center;
+            font-size: 1.5em;
+          }
+      }
+    }
+    &__about {
+      font-weight: 100;
+    }
+    &__list {
+      list-style-type: square;
+      font-weight: 100;
+      list-style-position: outside;
+      text-indent: -20px;
+      margin-left: 20px;
+    }
+  }
+  
