@@ -4,6 +4,8 @@
 @import "modules/header.scss";
 @import "modules/aside.scss";
 @import "modules/work.scss";
+@import "modules/footer.scss";
+
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
 
@@ -19,12 +21,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
+.test {
+display: block;
+margin-left: 2em;
+}
 .vertical {
-  margin-top: 20em;
-  margin-left: 4em;
+ 
   border-left: 4px solid black;
-  min-height: 100vh;
+  margin-left: -2em;
   opacity: 0.6;
   z-index: -1;
   @media (max-width: 740px) {
