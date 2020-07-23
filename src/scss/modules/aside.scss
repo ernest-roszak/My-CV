@@ -20,6 +20,12 @@
     display: flex;
     flex-direction: column;
     padding: 12px 30px;
+    &--edu {
+        &::before {
+           background: url(../assets/img/graduation-cap.svg);
+           background-repeat: no-repeat;
+       }
+   }
     &--item {
         list-style: none;
         list-style-position: outside;
@@ -40,9 +46,36 @@
           }
       }
     }
-
-  &--title {
+    &--lang {
+        &::before {
+           background: url(../assets/img/comments.svg);
+           background-repeat: no-repeat;
+       }
+   }
+    &--soft {
+        &::before {
+           background: url(../assets/img/user-friends.svg);
+           background-repeat: no-repeat;
+       }
+   }
+    &--tech {
+        &::before {
+           background: url(../assets/img/code.svg);
+           background-repeat: no-repeat;
+       }
+   }
+   &--title {
     text-decoration: underline;
+    position: relative;
+    margin-left: 28px;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 46px;
+        height: 46px;
+        margin-left: -52px;
+        top: 0px;
+    }
     @media (max-width: 740px) {
         font-size: 24px;
       }

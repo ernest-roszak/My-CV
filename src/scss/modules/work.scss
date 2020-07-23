@@ -27,6 +27,13 @@
     }
     &__about {
       font-weight: 100;
+      font-size: 1.2em
+    }
+    &__link {
+        text-decoration: none;
+        color: rgb(33, 83, 136);
+        font-size: 1.2em;
+        font-family: Roboto Mono;
     }
     &__list {
       list-style-type: square;

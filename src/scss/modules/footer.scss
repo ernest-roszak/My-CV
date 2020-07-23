@@ -47,9 +47,19 @@
       color: #fff;
       margin: 0 0 32px;
       letter-spacing: 0.1em;
+      
       text-shadow: 0.022em 0.022em 0.022em #111;
+      &::before {
+        content: "";
+        width: 48px;
+        height: 48px;
+        margin-top: -6px;
+        margin-right: 18px;
+       
+      }
       @media (max-width: 740px) {
         font-size: 26px;
+      
       }
     }
   }
@@ -60,6 +70,25 @@
         display: block;
       }
 }
+&__phone {
+  &::before {
+    background: url(../assets/img/phone-alt.svg);
+    background-repeat: no-repeat;
+  }
+}
+&__adress {
+  &::before {
+    background: url(../assets/img/map-marker-alt.svg);
+    background-repeat: no-repeat;
+  }
+}
+&__mail {
+  &::before {
+    background: url(../assets/img/at.svg);
+    background-repeat: no-repeat;
+  }
+}
+
 }
 .socials {
     list-style-type: none;
