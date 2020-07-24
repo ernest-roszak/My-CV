@@ -3,7 +3,7 @@
   background: rgb(2, 0, 36);
   background: linear-gradient(320deg, #00d4ff 5%, #417cbb 22%, #020024 87%);
   &__box {
-    padding: 64px 16px 88px 16px;
+    padding: 64px 16px 64px 16px;
   }
   &__description {
     font-size: 24px;
@@ -33,7 +33,7 @@
   &__info {
     display: flex;
     flex-direction: column;
-    margin-top: 64px;
+    margin-top: 36px;
     @media (max-width: 740px) {
         justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
       font-weight: 400;
       text-decoration: none;
       color: #fff;
-      margin: 0 0 32px;
+      margin: 0 0 24px;
       letter-spacing: 0.1em;
       
       text-shadow: 0.022em 0.022em 0.022em #111;
